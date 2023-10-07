@@ -1,0 +1,59 @@
+/* utilities */
+* {
+    font-family: outfit;
+    color: white;
+  }
+  
+  .subtitle {
+    text-transform: uppercase;
+    color: grey;
+    letter-spacing: 5px;
+  }
+  
+  body a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    color: ;
+  }
+  
+  /* utilities */
+
+  
+/* navbar */
+.navbar .navbar-brand img {
+    width: 120px;
+    margin-left: 50px;
+  }
+  
+  .navbar .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .navbar .btn {
+    background: linear-gradient(to right, #F5F313, #F7BD2E);
+    width: 130px;
+    font-weight: 600;
+    border-radius: 20px;
+    color: #1D1D1D;
+    text-align: center;
+  }
+  
+  .navbar .btn:hover {
+    background: none;
+    border: 1px solid #F5F313;
+    color: white;
+  }
+  
+  
+  .navbar .nav-link {
+    margin-right: 30px;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #F5F313;
+  }
+  
+  /* navbar */
