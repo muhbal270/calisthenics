@@ -1,0 +1,408 @@
+/* utilities */
+* {
+    font-family: outfit;
+    color: white;
+  }
+  
+
+  body a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    color: ;
+  }
+
+  h1 {
+    text-align: center;
+    padding-top: 140px;
+    letter-spacing: 5px;
+  }
+
+  h3 {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+/* utilities */
+
+  
+/* navbar */
+
+.workout {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./assets/Workout.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+.navbar .navbar-brand img {
+  width: 120px;
+  margin-left: 50px;
+}
+  
+.navbar .navbar-nav {
+  margin-left: auto;
+}
+  
+.navbar .btn {
+  background: linear-gradient(to right, #F5F313, #F7BD2E);
+  width: 150px;
+  font-weight: 600;
+  border-radius: 20px;
+  color: #1D1D1D;
+  text-align: center;
+  margin-right: 50px;
+  align-items: center;
+  }
+  
+.navbar .btn:hover {
+  background: none;
+  border: 1px solid #F5F313;
+  color: white;
+}
+
+  
+.navbar .nav-link {
+  margin-right: 30px;
+  color: white;
+}
+  
+.navbar .nav-link:hover {
+  color: #F5F313;
+}
+
+.navbar .container-log {
+  background-color: #272727;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.navbar-login {
+  background-color: #272727;
+}
+
+.navbar-login .container-signup
+{
+  background-color: #272727;
+  }
+
+/* akhir navbar */
+  
+
+/* top program */
+
+.top-program .front-lever {
+  height: 40vh;
+  background-image: url(./assets/Front\ lever\ strength.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 180px;
+  border-radius: 20px;
+}
+
+.top-program .muscle-up {
+  height: 40vh;
+  background-image: url(./assets/Muscleup.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 180px;
+  border-radius: 20px;
+}
+
+.top-program .handstand {
+  height: 40vh;
+  background-image: url(./assets/Handstand.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 180px;
+  border-radius: 20px;
+}
+
+.top-program {
+  margin-left: 80px;
+   margin-right: 80px;
+}
+
+.top-program .pro {
+  color: #1D1D1D;
+  background: linear-gradient(to right, #F5F313, #F7BD2E);
+  border-radius: 5px;
+  padding: 5px 8px 5px 8px;
+  margin-left: 15px;
+  margin-right: 5px;
+  font-size: medium;
+}
+
+.top-program h2 {
+  text-align: left;
+  margin-left: 15px;
+}
+
+/* top program */
+
+
+/* top routines */
+
+.top-routines {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.top-routines .beginner {
+  color: #1D1D1D;
+  background: linear-gradient(to right, #F5F313, #F7BD2E);
+  border-radius: 5px;
+  margin-right: 150px;
+  padding: 8px 2px 0.5px 2px;
+  text-align: center;
+  justify-content: center;
+}
+
+.top-routines .intermediate {
+  color: #1D1D1D;
+  background: linear-gradient(to right, #F5F313, #F7BD2E);
+  border-radius: 5px;
+  padding: 8px 2px 0.5px 2px;
+  margin-right: 110px;
+  text-align: center;
+  justify-content: center;
+}
+
+.top-routines .card {
+  background-color: #272727;
+  color: white;
+  border-radius: 20px;
+}
+
+.top-routines h5 {
+  color: white;
+}
+
+.top-routines .target{
+  color: #cdcdcd;
+}
+
+/* akhir top routines */
+
+
+/* routines */
+
+.navbar-routines {
+  background-color: #272727;
+}
+  
+.routines {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+  
+.routines .beginner {
+  color: #1D1D1D;
+  background: linear-gradient(to right, #F5F313, #F7BD2E);
+  border-radius: 5px;
+  margin-right: 150px;
+  padding: 8px 2px 0.5px 2px;
+  text-align: center;
+  justify-content: center;
+}
+  
+.routines .intermediate {
+  color: #1D1D1D;
+  background: linear-gradient(to right, #F5F313, #F7BD2E);
+  border-radius: 5px;
+  padding: 8px 2px 0.5px 2px;
+  margin-right: 110px;
+  text-align: center;
+  justify-content: center;
+}
+  
+.routines .card {
+  background-color: #272727;
+  color: white;
+  border-radius: 20px;
+}
+  
+.routines h5 {
+  color: white;
+}
+
+.routines .list-workout h6 {
+  color:white ;
+}
+
+.routines .list-workout h5 {
+  color: #cdcdcd;
+}
+  
+.routines .target{
+  color: #cdcdcd;
+}
+
+.routines .start-wo {
+  padding-left: 15px;
+  color: #1D1D1D;
+  background: linear-gradient(to right, #F5F313, #F7BD2E);
+  border-radius: 5px;
+  margin: 15px 15px;
+  padding: 12px 6px 0.5px 2px;
+  text-align: center;
+  justify-content: center;
+}
+
+.routines .start-wo:hover {
+  background: none;
+  border: 1px solid #F5F313;
+  color: white;
+}
+
+.routines .list-workout {
+  padding-left: 15px;
+}
+  
+/* akhir routines */
+
+/* equipment */
+
+.equipment {
+  text-align: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.equipment p {
+  color: #cdcdcd;
+}
+
+.equipment .card h5 {
+  color: #cdcdcd;
+}
+
+.equipment .card {
+  color: white;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  border-color: white;
+  margin-top: 20px;
+  width: 200px;
+  background-color: #272727;
+  margin-left: 350px;
+}
+
+.equip {
+  background-color: #272727;
+}
+
+.equipment .btn {
+  background-color: white;
+  width: 150px;
+  font-weight: 600;
+  border-radius: 20px;
+  color: #1D1D1D;
+  text-align: center;
+  align-items: center;
+}
+
+.equipment .btn:hover {
+  background: none;
+  border: 1px solid #ffffff;
+  color: white;
+}
+
+/* akhir equipment */
+
+
+/* login */
+
+#login {
+  color: white;
+  background-color: whitesmoke;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#login a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#login h5 {
+  text-align: center;
+  color: #272727;
+}
+#login p {
+  text-align: center;
+  color: #272727;
+}
+
+.bg-login {
+  border: 1px solid #cdcdcd;
+  color: #272727;
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: #272727;
+}
+
+.bg-login .btn-login {
+  background-color: #608fff;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+/* akhir login */
+
+/* sign up */
+
+#login .btn-sign {
+  color: #272727;
+  border: 1px solid #cdcdcd;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* akhir sign up */
+
+/* footer */
+
+footer {
+  padding: 30px 30px;
+  padding-left: 50px;
+  margin-top: 30px;
+  background-color: #272727;
+}
+
+footer h6 {
+  color: #cdcdcd;
+}
+
+footer a {
+  color: #939393;
+}
+
+footer a:hover {
+  color: #F5F313;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+  
+footer li {
+  display: inline;
+  padding-right: 20px;
+}
+
+/* akhir footer */
